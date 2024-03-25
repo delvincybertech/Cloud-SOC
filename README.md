@@ -34,9 +34,9 @@ In the "BEFORE" phase, all resources were initially deployed with direct exposur
 
 In contrast, the "AFTER" metrics reflect significant enhancements in security measures. Network Security Groups were strengthened by blocking all traffic except for access from my admin workstation. Additionally, all other resources were safeguarded by activating their built-in firewalls and implementing Private Endpoints.
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![image](https://github.com/delvincybertech/Cloud-SOC/assets/164829222/a8dfdabc-ab95-418a-aa55-103c82131836)<br>
+![image](https://github.com/delvincybertech/Cloud-SOC/assets/164829222/d783217a-7a0e-4faf-adcb-114c7d22364e)<br>
+![image](https://github.com/delvincybertech/Cloud-SOC/assets/164829222/cb085e84-61af-45f0-9933-ccd6436e9ee4)<br>
 
 ## Metrics Before Hardening / Security Controls
 
