@@ -30,10 +30,9 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+In the "BEFORE" phase, all resources were initially deployed with direct exposure to the internet. The Virtual Machines had unrestricted Network Security Groups and open built-in firewalls, while other resources were configured with public endpoints accessible from the internet, rendering Private Endpoints unnecessary.
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
-
+In contrast, the "AFTER" metrics reflect significant enhancements in security measures. Network Security Groups were strengthened by blocking all traffic except for access from my admin workstation. Additionally, all other resources were safeguarded by activating their built-in firewalls and implementing Private Endpoints.
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
 ![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
